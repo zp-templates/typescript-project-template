@@ -1,6 +1,10 @@
 {
   "name": "typescript-project-template",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zp-templates/typescript-project-template.git"
+  },
   "description": "",
   "main": "src/index.ts",
   "scripts": {
@@ -26,6 +30,7 @@
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
+    "semantic-release": "^17.4.2",
     "ts-node": "^9.1.1",
     "typescript": "^4.2.4"
   }
