@@ -40,12 +40,6 @@ module.exports = {
         changelogTitle: "Change log",
       },
     ],
-    [
-      "@semantic-release/npm",
-      {
-        tarballDir: "src",
-      },
-    ],
     "@semantic-release/github",
     [
       "@semantic-release/git",
