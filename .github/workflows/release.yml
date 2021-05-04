@@ -1,15 +1,13 @@
 name: Release
 
-on:
-  create:
-    tags:
-      - 'v*'
+on: [create, release, deployment, fork, push, status, label]
 
 jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
     steps:
+      - run: echo "$GITHUB_EVENT_NAME"
       - uses: actions/checkout@v2
       - name: Login to GitHub Container Registry
         uses: docker/login-action@v1
