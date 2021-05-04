@@ -1,5 +1,12 @@
 Change log
 
+## [1.1.6](https://github.com/zp-templates/typescript-project-template/compare/v1.1.5...v1.1.6) (2021-05-04)
+
+
+### Bug Fixes
+
+* test triggers ([da88a75](https://github.com/zp-templates/typescript-project-template/commit/da88a75e7a226361ddd9ba9bc270b7810c895bcf))
+
 ## [1.1.5](https://github.com/zp-templates/typescript-project-template/compare/v1.1.4...v1.1.5) (2021-05-04)
 
 
