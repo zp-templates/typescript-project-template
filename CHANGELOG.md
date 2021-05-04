@@ -1,5 +1,12 @@
 Change log
 
+## [1.1.1](https://github.com/zp-templates/typescript-project-template/compare/v1.1.0...v1.1.1) (2021-05-04)
+
+
+### Bug Fixes
+
+* attempt fix for job running on tags ([848cee2](https://github.com/zp-templates/typescript-project-template/commit/848cee2185fb9742c8607554c72d7b82f1ac5447))
+
 # [1.1.0](https://github.com/zp-templates/typescript-project-template/compare/v1.0.0...v1.1.0) (2021-05-04)
 
 
