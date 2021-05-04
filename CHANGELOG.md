@@ -1,5 +1,12 @@
 Change log
 
+# [1.1.0](https://github.com/zp-templates/typescript-project-template/compare/v1.0.0...v1.1.0) (2021-05-04)
+
+
+### Features
+
+* add dockerfile, container building and automated pushing ([c4ce47f](https://github.com/zp-templates/typescript-project-template/commit/c4ce47fb5594d678bc49d364d90fbad3ccbed113))
+
 # 1.0.0 (2021-05-03)
 
 
