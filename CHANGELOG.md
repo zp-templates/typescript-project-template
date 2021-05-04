@@ -1,5 +1,12 @@
 Change log
 
+## [1.1.8](https://github.com/zp-templates/typescript-project-template/compare/v1.1.7...v1.1.8) (2021-05-04)
+
+
+### Bug Fixes
+
+* remove unnecessary stage and update push-action ([00ae1e3](https://github.com/zp-templates/typescript-project-template/commit/00ae1e3b0b8108f3829faab99bd248a5ad940a41))
+
 ## [1.1.7](https://github.com/zp-templates/typescript-project-template/compare/v1.1.6...v1.1.7) (2021-05-04)
 
 
