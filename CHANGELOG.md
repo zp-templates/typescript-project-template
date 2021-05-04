@@ -1,5 +1,12 @@
 Change log
 
+## [1.1.5](https://github.com/zp-templates/typescript-project-template/compare/v1.1.4...v1.1.5) (2021-05-04)
+
+
+### Bug Fixes
+
+* change to tag create trigger ([48110f3](https://github.com/zp-templates/typescript-project-template/commit/48110f3b3b951cc73d1acd0e3326d3fbe2a32fea))
+
 ## [1.1.4](https://github.com/zp-templates/typescript-project-template/compare/v1.1.3...v1.1.4) (2021-05-04)
 
 
