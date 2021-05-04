@@ -1,5 +1,15 @@
 Change log
 
+## [1.1.7](https://github.com/zp-templates/typescript-project-template/compare/v1.1.6...v1.1.7) (2021-05-04)
+
+
+### Bug Fixes
+
+* checkout and install node for release job ([4591b15](https://github.com/zp-templates/typescript-project-template/commit/4591b152a1d809d41924f9adc3f13a8b1cbd73ad))
+* collapse release into single workflow ([8966830](https://github.com/zp-templates/typescript-project-template/commit/8966830fe25ea861999aeb6ebc13ff459e096be9))
+* install dependencies before doing release ([158a6ef](https://github.com/zp-templates/typescript-project-template/commit/158a6efdea9e881f158e6bef995d185c25a4ab0b))
+* install dependencies BEFORE doing release ([9bc8082](https://github.com/zp-templates/typescript-project-template/commit/9bc8082a34186364794842eb98e5605dc794b1c2))
+
 ## [1.1.6](https://github.com/zp-templates/typescript-project-template/compare/v1.1.5...v1.1.6) (2021-05-04)
 
 
