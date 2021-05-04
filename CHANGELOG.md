@@ -1,5 +1,12 @@
 Change log
 
+## [1.1.4](https://github.com/zp-templates/typescript-project-template/compare/v1.1.3...v1.1.4) (2021-05-04)
+
+
+### Bug Fixes
+
+* capitalise workflow name ([bb1087d](https://github.com/zp-templates/typescript-project-template/commit/bb1087d5c5b23510f02e9550ff4d18adc2941f13))
+
 ## [1.1.3](https://github.com/zp-templates/typescript-project-template/compare/v1.1.2...v1.1.3) (2021-05-04)
 
 
