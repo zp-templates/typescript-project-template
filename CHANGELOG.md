@@ -1,5 +1,12 @@
 Change log
 
+## [1.2.9](https://github.com/zp-templates/typescript-project-template/compare/v1.2.8...v1.2.9) (2021-05-05)
+
+
+### Bug Fixes
+
+* don't use cache-to ([044cd78](https://github.com/zp-templates/typescript-project-template/commit/044cd7858c3180ec504eb82206b53d05286d05dc))
+
 ## [1.2.8](https://github.com/zp-templates/typescript-project-template/compare/v1.2.7...v1.2.8) (2021-05-05)
 
 
