@@ -1,5 +1,12 @@
 Change log
 
+## [1.2.1](https://github.com/zp-templates/typescript-project-template/compare/v1.2.0...v1.2.1) (2021-05-05)
+
+
+### Bug Fixes
+
+* use v2 build-push-action ([c3f94ad](https://github.com/zp-templates/typescript-project-template/commit/c3f94adecbfbc3e0e61bc9940e7e62d4423a8573))
+
 # [1.2.0](https://github.com/zp-templates/typescript-project-template/compare/v1.1.12...v1.2.0) (2021-05-05)
 
 
