@@ -1,5 +1,12 @@
 Change log
 
+## [1.2.2](https://github.com/zp-templates/typescript-project-template/compare/v1.2.1...v1.2.2) (2021-05-05)
+
+
+### Bug Fixes
+
+* specify ghcr.io in build tags ([55809d1](https://github.com/zp-templates/typescript-project-template/commit/55809d1df7524dffca8e931904f28e763e896489))
+
 ## [1.2.1](https://github.com/zp-templates/typescript-project-template/compare/v1.2.0...v1.2.1) (2021-05-05)
 
 
