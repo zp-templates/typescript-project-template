@@ -1,5 +1,12 @@
 Change log
 
+# [1.2.0](https://github.com/zp-templates/typescript-project-template/compare/v1.1.12...v1.2.0) (2021-05-05)
+
+
+### Features
+
+* support pushing to github container registry with new v2 action ([e35275d](https://github.com/zp-templates/typescript-project-template/commit/e35275df118bdefa1780b7032e47b662cfc3584b))
+
 ## [1.1.12](https://github.com/zp-templates/typescript-project-template/compare/v1.1.11...v1.1.12) (2021-05-05)
 
 
