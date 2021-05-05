@@ -1,5 +1,12 @@
 Change log
 
+## [1.2.4](https://github.com/zp-templates/typescript-project-template/compare/v1.2.3...v1.2.4) (2021-05-05)
+
+
+### Bug Fixes
+
+* set version as a tag not as a new container ([590813b](https://github.com/zp-templates/typescript-project-template/commit/590813b63e97c1ba3dcd814e8d92c27ef70d72e1))
+
 ## [1.2.3](https://github.com/zp-templates/typescript-project-template/compare/v1.2.2...v1.2.3) (2021-05-05)
 
 
