@@ -1,5 +1,12 @@
 Change log
 
+## [1.2.7](https://github.com/zp-templates/typescript-project-template/compare/v1.2.6...v1.2.7) (2021-05-05)
+
+
+### Bug Fixes
+
+* remove sleep ([f90b431](https://github.com/zp-templates/typescript-project-template/commit/f90b431de583fde411045e3d8b7e36484fab8326))
+
 ## [1.2.6](https://github.com/zp-templates/typescript-project-template/compare/v1.2.5...v1.2.6) (2021-05-05)
 
 
