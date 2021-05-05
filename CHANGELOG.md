@@ -1,5 +1,12 @@
 Change log
 
+## [1.2.6](https://github.com/zp-templates/typescript-project-template/compare/v1.2.5...v1.2.6) (2021-05-05)
+
+
+### Bug Fixes
+
+* use node 14 and optimise Dockerfile ([6da7f5a](https://github.com/zp-templates/typescript-project-template/commit/6da7f5a820faeb3d8fa5fdc26b62539cf5428675))
+
 ## [1.2.5](https://github.com/zp-templates/typescript-project-template/compare/v1.2.4...v1.2.5) (2021-05-05)
 
 
