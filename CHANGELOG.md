@@ -1,5 +1,14 @@
 Change log
 
+## [1.1.11](https://github.com/zp-templates/typescript-project-template/compare/v1.1.10...v1.1.11) (2021-05-05)
+
+
+### Bug Fixes
+
+* disable npmPublish for semver ([4f016ba](https://github.com/zp-templates/typescript-project-template/commit/4f016ba1d7c39b079c7cf364ea44a5c7da30c995))
+* disable npmPublish for semver ([f01bc68](https://github.com/zp-templates/typescript-project-template/commit/f01bc686ace1b5d3196b9814196d0738347c358a))
+* update package.json version ([2974a68](https://github.com/zp-templates/typescript-project-template/commit/2974a68b334df523be19a032e48619a3237e73f1))
+
 ## [1.1.10](https://github.com/zp-templates/typescript-project-template/compare/v1.1.9...v1.1.10) (2021-05-05)
 
 
