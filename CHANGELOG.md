@@ -1,5 +1,12 @@
 Change log
 
+## [1.1.12](https://github.com/zp-templates/typescript-project-template/compare/v1.1.11...v1.1.12) (2021-05-05)
+
+
+### Bug Fixes
+
+* docker-push-action v1 ([17bd08b](https://github.com/zp-templates/typescript-project-template/commit/17bd08bd85ea30530ec321b921f2fe842a3e27a3))
+
 ## [1.1.11](https://github.com/zp-templates/typescript-project-template/compare/v1.1.10...v1.1.11) (2021-05-05)
 
 
