@@ -36,12 +36,14 @@ jobs:
         run: npx semantic-release
         env:
           GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: get-npm-version
+        id: package-version
+        uses: martinbeentjes/npm-get-version-action@master
       - name: Release Docker Container
-        uses: docker/build-push-action@v1
+        uses: docker/build-push-action@v2
         with:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
           repository: ${{ github.repository }}
-          tag_with_sha: true
-          tag_with_ref: true
+          tags: latest,${{ steps.package-version.outputs.current-version}}
