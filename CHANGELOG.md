@@ -1,5 +1,12 @@
 Change log
 
+## [1.2.5](https://github.com/zp-templates/typescript-project-template/compare/v1.2.4...v1.2.5) (2021-05-05)
+
+
+### Bug Fixes
+
+* faster dockerfile build ([a708cf2](https://github.com/zp-templates/typescript-project-template/commit/a708cf29a38fa3f7e6662fb64b420d9356ae642e))
+
 ## [1.2.4](https://github.com/zp-templates/typescript-project-template/compare/v1.2.3...v1.2.4) (2021-05-05)
 
 
