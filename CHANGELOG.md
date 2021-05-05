@@ -1,5 +1,12 @@
 Change log
 
+## [1.2.8](https://github.com/zp-templates/typescript-project-template/compare/v1.2.7...v1.2.8) (2021-05-05)
+
+
+### Bug Fixes
+
+* use image caching ([576dd71](https://github.com/zp-templates/typescript-project-template/commit/576dd71bf41864af50d295fa37b36c81c02fcd14))
+
 ## [1.2.7](https://github.com/zp-templates/typescript-project-template/compare/v1.2.6...v1.2.7) (2021-05-05)
 
 
