@@ -42,6 +42,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: ghcr.io
-          repository: ${{ github.repository }}/typescript-project-template
+          repository: ${{ github.repository }}
           tag_with_sha: true
           tag_with_ref: true
