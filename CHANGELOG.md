@@ -1,5 +1,12 @@
 Change log
 
+## [1.2.3](https://github.com/zp-templates/typescript-project-template/compare/v1.2.2...v1.2.3) (2021-05-05)
+
+
+### Bug Fixes
+
+* push to registry after build ([610e577](https://github.com/zp-templates/typescript-project-template/commit/610e5776dc323c9928ffd1cd8767421e09432c0c))
+
 ## [1.2.2](https://github.com/zp-templates/typescript-project-template/compare/v1.2.1...v1.2.2) (2021-05-05)
 
 
