@@ -1,5 +1,12 @@
 Change log
 
+## [1.2.10](https://github.com/zp-templates/typescript-project-template/compare/v1.2.9...v1.2.10) (2021-12-27)
+
+
+### Bug Fixes
+
+* docker container would error as package.json didn't exist ([1787590](https://github.com/zp-templates/typescript-project-template/commit/1787590dfd2f3ed38eaed8b810310f0276a99676))
+
 ## [1.2.9](https://github.com/zp-templates/typescript-project-template/compare/v1.2.8...v1.2.9) (2021-05-05)
 
 
