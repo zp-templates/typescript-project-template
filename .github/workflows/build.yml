@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js v12.22
+      - name: Use Node.js v16.7.0
         uses: actions/setup-node@v1
         with:
-          node-version: 12.22
+          node-version: 16.7.0
       - name: Install Dependencies
         run: yarn
       - name: Lint
@@ -26,10 +26,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Use Node.js v12.22
+      - name: Use Node.js v16.7.0
         uses: actions/setup-node@v1
         with:
-          node-version: 12.22
+          node-version: 16.7.0
       - name: Install Dependencies
         run: yarn
       - name: Semver Release
