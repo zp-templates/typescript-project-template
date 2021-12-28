@@ -1,0 +1,6 @@
+{
+  "env": {
+    "environment": "dev"
+  },
+  "ignore": ["output/*"]
+}

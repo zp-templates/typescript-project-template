@@ -1,0 +1,20 @@
+{
+  "replacements": [],
+  "fileSpecificSubstitutions": [{
+    "filePath": "package.json",
+    "message": "Fill out the fields in package.json",
+    "template": {
+      "name": "${projectName}",
+      "description": "${description}",
+      "version": "${version:0.0.1}",
+      "homepage": "https://github.com/${usernameOrOrg}/${projectName}",
+      "author": "${author_name} (https://github.com/${usernameOrOrg})",
+      "repository": {
+        "type": "git",
+        "url": "https:git@github.com:${usernameOrOrg}/${projectName}"
+      },
+      "license": "${license:ISC}"
+    }
+  }
+]
+}

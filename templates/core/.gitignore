@@ -1,6 +1,6 @@
 ## Project Gitignore
 build/
-output/
+
 
 ## Node Gitignore
 # Logs
