@@ -12,7 +12,7 @@ type ModuleConfig = {
   fileSpecificSubstitutions: {
     filePath: string;
     message: string;
-    template: object;
+    template: Record<string, unknown>;
   }[];
 };
 
