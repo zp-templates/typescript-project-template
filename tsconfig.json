@@ -4,6 +4,7 @@
     "module": "commonjs",
     "strict": true,
     "baseUrl": ".",
+    "outDir": "build",
     "paths": {
       "*": ["src/*"],
       "__tests__/*": ["__tests__/*"]
