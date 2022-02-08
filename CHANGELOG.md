@@ -1,5 +1,12 @@
 Change log
 
+# [1.3.0](https://github.com/zp-templates/typescript-project-template/compare/v1.2.10...v1.3.0) (2022-02-08)
+
+
+### Features
+
+* move from template to boilerplate engine ([07b2136](https://github.com/zp-templates/typescript-project-template/commit/07b213647585cc869c723dd45cff4ca09c6b2d3a))
+
 ## [1.2.10](https://github.com/zp-templates/typescript-project-template/compare/v1.2.9...v1.2.10) (2021-12-27)
 
 
