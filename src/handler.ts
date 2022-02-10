@@ -17,16 +17,24 @@ type ModuleConfig = {
 };
 
 async function generator() {
-  const { value: projectType } = await prompt<{ value: string }>([
+  const { projectType, projectName } = await prompt<{
+    projectType: string;
+    projectName: string;
+  }>([
     {
       type: 'select',
-      name: 'value',
+      name: 'projectType',
       message: 'What Project Type?',
       choices: ['core', 'telegram-bot']
+    },
+    {
+      type: 'input',
+      name: 'projectName',
+      message: 'What is the project name?'
     }
   ]);
 
-  const outputDir = process.env?.environment === 'dev' ? './output' : '.';
+  const outputDir = `..${path.sep}${projectName}`;
   await copy('./templates/core', outputDir, {
     overwrite: true,
     dot: true
