@@ -1,5 +1,14 @@
 Change log
 
+# [1.5.0](https://github.com/zp-templates/typescript-project-template/compare/v1.4.0...v1.5.0) (2022-02-10)
+
+
+### Features
+
+* add the base setup for telegram-bot template ([19a24ce](https://github.com/zp-templates/typescript-project-template/commit/19a24ce1c58fc89a5f3964324a3bffa212916319))
+* add webpack, output to project name as path ([16fb204](https://github.com/zp-templates/typescript-project-template/commit/16fb204f1cac881ccb421805909992df437d755b))
+* update core to use webpack and all-round better defaults ([1e6bbd0](https://github.com/zp-templates/typescript-project-template/commit/1e6bbd0d71c32144300d8fd67b2f300a36dfba60))
+
 # [1.4.0](https://github.com/zp-templates/typescript-project-template/compare/v1.3.0...v1.4.0) (2022-02-08)
 
 
