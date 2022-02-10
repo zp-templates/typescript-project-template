@@ -1,5 +1,12 @@
 Change log
 
+## [1.5.1](https://github.com/zp-templates/typescript-project-template/compare/v1.5.0...v1.5.1) (2022-02-10)
+
+
+### Bug Fixes
+
+* add missing dependencies to telegram-bot template ([7ba38cb](https://github.com/zp-templates/typescript-project-template/commit/7ba38cb2f95f30968a1b40bac64f3c105b4575fe))
+
 # [1.5.0](https://github.com/zp-templates/typescript-project-template/compare/v1.4.0...v1.5.0) (2022-02-10)
 
 
