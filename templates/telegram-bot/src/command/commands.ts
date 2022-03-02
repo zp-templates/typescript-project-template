@@ -1,6 +1,6 @@
-import { Telegraf } from 'telegraf';
+import { Bot } from 'grammy';
 import { pingCommand } from 'command/pingCommand';
 
-export function registerCommands(bot: Telegraf) {
+export function registerCommands(bot: Bot) {
   pingCommand(bot);
 }

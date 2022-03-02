@@ -1,14 +1,15 @@
-import express, { Request, Response } from 'express';
+import express, { json } from 'express';
 
-import { Telegraf } from 'telegraf';
 import { getEnv } from 'shared/env';
 import { devSetup } from 'devSetup';
+import { Bot, webhookCallback } from 'grammy';
+import { v4 as uuid } from 'uuid';
 import { registerCommands } from 'command/commands';
 import { registerEvent } from 'event/events';
 
-export async function handler() {
+export async function handler(): Promise<void> {
   const token = process.env.BOT_TOKEN;
-  if (token === undefined) {
+  if (!token) {
     throw new Error('BOT_TOKEN must be provided!');
   }
 
@@ -16,22 +17,21 @@ export async function handler() {
     await devSetup();
   }
 
-  const bot = new Telegraf(token);
+  const bot = new Bot(token);
 
   registerCommands(bot);
   registerEvent(bot);
 
   const host = getEnv('host');
-  const secretPath = `/telegraf/${bot.secretPathComponent()}`;
+  const secretPath = `/grammy/${uuid()}`;
 
-  await bot.telegram.setWebhook(`${host}${secretPath}`);
+  await bot.api.setWebhook(`${host}${secretPath}`);
 
   const app = express();
-  app.get('/', (req: Request, res: Response) => res.send('Hello World!'));
-  // Set the bot API endpoint
-  app.use(bot.webhookCallback(secretPath));
+  app.use(json());
+  app.use(secretPath, webhookCallback(bot, 'express'));
   app.listen(3000, () => {
-    console.log('Example app listening on port 3000!');
+    console.log('Webhook Server Started!');
   });
 }
 

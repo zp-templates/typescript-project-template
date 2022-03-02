@@ -1,9 +1,10 @@
-import { Telegraf } from 'telegraf';
+import { Bot } from 'grammy';
 
-export function helloEvent(bot: Telegraf) {
-  bot.on('text', (ctx) => {
-    if (ctx.message.text.toLowerCase().includes('hello')) {
-      ctx.replyWithHTML('<b>Hello</b>');
+export function helloEvent(bot: Bot) {
+  bot.on('message:text', async (ctx, next) => {
+    if (ctx.msg.text.toLowerCase().includes('hello')) {
+      await ctx.reply('<b>Hello</b>', { parse_mode: 'HTML' });
     }
+    return next();
   });
 }
