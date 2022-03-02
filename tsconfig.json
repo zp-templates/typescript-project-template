@@ -6,7 +6,7 @@
     "baseUrl": ".",
     "outDir": "build",
     "paths": {
-      "*": ["src/*"],
+      "*": ["src/*", "templates/telegram-bot/src/*"],
       "__tests__/*": ["__tests__/*"]
     },
     "typeRoots": ["node_modules/@types"],
